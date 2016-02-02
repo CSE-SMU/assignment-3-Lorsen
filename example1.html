@@ -1,5 +1,6 @@
 <html>
-  <head>
+
+<head>
     <title>Standard Bootstrap Screenshot</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
 </head>
@@ -31,7 +32,7 @@
 </nav>
 
 <body>
-    
+
     <br>
     <div class="container">
 
@@ -49,20 +50,86 @@
                 <span class="label label-success label-pill pull-xs-right">95</span> Assignment #5</li>
         </ul>
 
-        <div class ="container col-xs-9">
-        <h1>Assignment 1</h1>
-        <p>Semper Ubi Sub Ubi</p>
-        <li class="list-group-item list-group-item-success">
-            <b> Well done! </b> You got a 92 on the assignment.</li>
+        <div class="container col-xs-9">
+            <h1>Assignment 1</h1>
+            <p>Semper Ubi Sub Ubi</p>
+            <li class="list-group-item list-group-item-success">
+                <strong> Well done! </strong> You got a 92 on the assignment.</li>
         </div>
-        
-        <div class = "container col-xs-9">
-        
+
+        <div class="container col-xs-9">
+
             <br>
-            <h4><b>Grading Rubric</b></h4>
-        
+            <h4><strong>Grading Rubric</strong></h4>
+            <table class="table">
+                <tr>
+                    <td><strong># Description</strong></td>
+                    <td><strong>Available Points</strong></td>
+                    <td><strong>Your Points</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>1 </strong>Lorem ipsum dolor sit amet.</td>
+                    <td>40</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td><strong>2 </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                    <td>40</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td><b>2 </b>Caesar imperator est.</td>
+                    <td>20</td>
+                    <td>12</td>
+                </tr>
+                <tr class="table-active">
+                    <td><strong>Total</strong></td>
+                    <td>20</td>
+                    <td>12</td>
+                </tr>
+
+            </table>
+
+            <br>
+            <div class="col-xs-6">
+                <h4><strong>Comments</strong></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget dui viverra tortor tincidunt elementum a vel sem. Mauris laoreet quam eu viverra imperdiet. Aliquam sit amet ante orci. Morbi pellentesque laoreet ligula, eget facilisis nisl suscipit non. Morbi at ipsum rhoncus, tempus elit eget, viverra diam. Donec dui nisl, dictum ut euismod a, vulputate nec est. </p>
+
+            </div>
+            <div class="card col-xs-6">
+                <div class="card-block">
+                    <h4 class="card-title"><strong>Get Bonus Points</strong></h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet magna vitae lectus maximus tempor ullamcorper vitae sapien. Donec.</p>
+                    <a href="#" class="btn btn-primary">Start Bonus Exercise</a>
+                </div>
+            </div>
+
+
+            <div>
+                <h4><strong>Dispute Grade</strong></h4>
+                <form>
+                    <div class="form-group row">
+                        <label for="inputComplaint" class="col-sm-2 form-control-label">Complaint</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputComplaint" placeholder="Your Complaint">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputReason" class="col-sm-2 form-control-label">Reason</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control"  placeholder="Your Reason"></textarea>
+                            <br>
+                             <a href="#" class="btn btn-primary">Submit</a>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+
         </div>
 
     </div>
 </body>
+
 </html>
