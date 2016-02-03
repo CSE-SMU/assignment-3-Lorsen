@@ -1,4 +1,16 @@
-#front-banner {
+
+.jumbotron{
+
+    background-image: url(http://www.socwall.com/images/wallpapers/12238-3800x1200.jpg);
+   background-size:contain;
     width: 100%;
-    /*height: auto;*/
+    height: 100%;
+
+}
+
+#calltoaction{
+
+    position:absolute;
+    right: 50%;
+
 }
